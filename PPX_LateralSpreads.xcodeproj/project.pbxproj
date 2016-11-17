@@ -15,6 +15,8 @@
 		57BA01111DD31CAF00F05B2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57BA010F1DD31CAF00F05B2E /* LaunchScreen.storyboard */; };
 		57BA011C1DD31CAF00F05B2E /* PPX_LateralSpreadsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BA011B1DD31CAF00F05B2E /* PPX_LateralSpreadsTests.m */; };
 		57BA01271DD31CAF00F05B2E /* PPX_LateralSpreadsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BA01261DD31CAF00F05B2E /* PPX_LateralSpreadsUITests.m */; };
+		57BA01371DD31CFF00F05B2E /* MLTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BA01361DD31CFF00F05B2E /* MLTransition.m */; };
+		57BA013B1DD31D2300F05B2E /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BA013A1DD31D2300F05B2E /* TwoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		57BA01221DD31CAF00F05B2E /* PPX_LateralSpreadsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PPX_LateralSpreadsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57BA01261DD31CAF00F05B2E /* PPX_LateralSpreadsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPX_LateralSpreadsUITests.m; sourceTree = "<group>"; };
 		57BA01281DD31CAF00F05B2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57BA01351DD31CFF00F05B2E /* MLTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLTransition.h; sourceTree = "<group>"; };
+		57BA01361DD31CFF00F05B2E /* MLTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLTransition.m; sourceTree = "<group>"; };
+		57BA01391DD31D2300F05B2E /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		57BA013A1DD31D2300F05B2E /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,8 @@
 		57BA01001DD31CAF00F05B2E /* PPX_LateralSpreads */ = {
 			isa = PBXGroup;
 			children = (
+				57BA01381DD31D0900F05B2E /* Class */,
+				57BA01341DD31CFF00F05B2E /* MLTransition */,
 				57BA01041DD31CAF00F05B2E /* AppDelegate.h */,
 				57BA01051DD31CAF00F05B2E /* AppDelegate.m */,
 				57BA01071DD31CAF00F05B2E /* ViewController.h */,
@@ -138,6 +146,24 @@
 				57BA01281DD31CAF00F05B2E /* Info.plist */,
 			);
 			path = PPX_LateralSpreadsUITests;
+			sourceTree = "<group>";
+		};
+		57BA01341DD31CFF00F05B2E /* MLTransition */ = {
+			isa = PBXGroup;
+			children = (
+				57BA01351DD31CFF00F05B2E /* MLTransition.h */,
+				57BA01361DD31CFF00F05B2E /* MLTransition.m */,
+			);
+			path = MLTransition;
+			sourceTree = "<group>";
+		};
+		57BA01381DD31D0900F05B2E /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				57BA01391DD31D2300F05B2E /* TwoViewController.h */,
+				57BA013A1DD31D2300F05B2E /* TwoViewController.m */,
+			);
+			path = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,7 +300,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				57BA01091DD31CAF00F05B2E /* ViewController.m in Sources */,
+				57BA01371DD31CFF00F05B2E /* MLTransition.m in Sources */,
 				57BA01061DD31CAF00F05B2E /* AppDelegate.m in Sources */,
+				57BA013B1DD31D2300F05B2E /* TwoViewController.m in Sources */,
 				57BA01031DD31CAF00F05B2E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +535,7 @@
 				57BA012D1DD31CAF00F05B2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		57BA012E1DD31CAF00F05B2E /* Build configuration list for PBXNativeTarget "PPX_LateralSpreadsTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +544,7 @@
 				57BA01301DD31CAF00F05B2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		57BA01311DD31CAF00F05B2E /* Build configuration list for PBXNativeTarget "PPX_LateralSpreadsUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +553,7 @@
 				57BA01331DD31CAF00F05B2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

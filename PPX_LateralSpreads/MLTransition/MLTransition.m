@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 molon. All rights reserved.
 //
 
-#import "PPX_Transition.h"
+#import "MLTransition.h"
 #import <objc/runtime.h>
 #import <dlfcn.h>
 
@@ -267,7 +267,7 @@ NSString * const k__MLTransition_GestureRecognizer = @"__MLTransition_GestureRec
 
 @end
 
-@implementation PPX_Transition
+@implementation MLTransition
 
 + (void)validatePanPackWithMLTransitionGestureRecognizerType:(MLTransitionGestureRecognizerType)type
 {

@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "57BA00FD1DD31CAF00F05B2E"
+               BuildableName = "PPX_LateralSpreads.app"
+               BlueprintName = "PPX_LateralSpreads"
+               ReferencedContainer = "container:PPX_LateralSpreads.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "57BA01161DD31CAF00F05B2E"
+               BuildableName = "PPX_LateralSpreadsTests.xctest"
+               BlueprintName = "PPX_LateralSpreadsTests"
+               ReferencedContainer = "container:PPX_LateralSpreads.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "57BA01211DD31CAF00F05B2E"
+               BuildableName = "PPX_LateralSpreadsUITests.xctest"
+               BlueprintName = "PPX_LateralSpreadsUITests"
+               ReferencedContainer = "container:PPX_LateralSpreads.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "57BA00FD1DD31CAF00F05B2E"
+            BuildableName = "PPX_LateralSpreads.app"
+            BlueprintName = "PPX_LateralSpreads"
+            ReferencedContainer = "container:PPX_LateralSpreads.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "57BA00FD1DD31CAF00F05B2E"
+            BuildableName = "PPX_LateralSpreads.app"
+            BlueprintName = "PPX_LateralSpreads"
+            ReferencedContainer = "container:PPX_LateralSpreads.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "57BA00FD1DD31CAF00F05B2E"
+            BuildableName = "PPX_LateralSpreads.app"
+            BlueprintName = "PPX_LateralSpreads"
+            ReferencedContainer = "container:PPX_LateralSpreads.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

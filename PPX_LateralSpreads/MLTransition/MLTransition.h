@@ -14,7 +14,7 @@ typedef enum {
 	MLTransitionGestureRecognizerTypeScreenEdgePan, //边界拖动模式
 } MLTransitionGestureRecognizerType;
 
-@interface PPX_Transition : NSObject
+@interface MLTransition : NSObject
 
 + (void)validatePanPackWithMLTransitionGestureRecognizerType:(MLTransitionGestureRecognizerType)type;
 
